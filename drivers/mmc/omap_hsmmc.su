@@ -1,0 +1,8 @@
+omap_hsmmc.c:514:13:omap_hsmmc_set_ios	16	static
+omap_hsmmc.c:244:13:mmc_reset_controller_fsm	16	static
+omap_hsmmc.c:611:12:omap_hsmmc_getwp	0	static
+omap_hsmmc.c:597:12:omap_hsmmc_getcd	8	static
+omap_hsmmc.c:284:12:omap_hsmmc_send_cmd	32	static
+omap_hsmmc.c:147:6:mmc_init_stream	16	static
+omap_hsmmc.c:175:12:omap_hsmmc_init_setup	16	static
+omap_hsmmc.c:638:5:omap_mmc_init	32	static

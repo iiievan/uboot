@@ -1,0 +1,2 @@
+# uboot
+for new boards

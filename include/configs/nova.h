@@ -13,8 +13,8 @@
  * GNU General Public License for more details.
  */
 
-#ifndef __CONFIG_AM335X_EVM_H
-#define __CONFIG_AM335X_EVM_H
+#ifndef __CONFIG_NOVA_H
+#define __CONFIG_NOVA_H
 
 #include <configs/ti_am335x_common.h>
 #include <environment/ti/dfu.h>
@@ -35,7 +35,7 @@
 #define V_SCLK				(V_OSCK)
 
 /* Custom script for NOR */
-#define CONFIG_SYS_LDSCRIPT		"board/ti/am335x/u-boot.lds"
+#define CONFIG_SYS_LDSCRIPT		"board/ti/nova/u-boot.lds"
 
 /* Always 128 KiB env size */
 #define CONFIG_ENV_SIZE			(128 << 10)
@@ -65,6 +65,9 @@
 
 #define CONFIG_ENV_VARS_UBOOT_RUNTIME_CONFIG
 
+#undef CONFIG_SYS_PROMPT
+#define CONFIG_SYS_PROMPT "nova!> "
+		
 #define BOOTENV_DEV_LEGACY_MMC(devtypeu, devtypel, instance) \
 	"bootcmd_" #devtypel #instance "=" \
 	"setenv mmcdev " #instance"; "\
@@ -415,4 +418,4 @@
 #define CLK_SYNTHESIZER_I2C_ADDR 0x65
 #endif
 
-#endif	/* ! __CONFIG_AM335X_EVM_H */
+#endif	/* ! __CONFIG_NOVA_H */

@@ -1,4 +1,4 @@
-if TARGET_AM335X_EVM
+if TARGET_NOVA
 
 config SPL_ENV_SUPPORT
 	default y
@@ -10,7 +10,7 @@ config SPL_YMODEM_SUPPORT
 	default y
 
 config SYS_BOARD
-	default "am335x"
+	default "nova"
 
 config SYS_VENDOR
 	default "ti"
@@ -19,7 +19,7 @@ config SYS_SOC
 	default "am33xx"
 
 config SYS_CONFIG_NAME
-	default "am335x_evm"
+	default "nova"
 
 config CONS_INDEX
 	int "UART used for console"

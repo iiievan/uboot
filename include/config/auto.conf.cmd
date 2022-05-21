@@ -361,6 +361,7 @@ deps_config := \
 	board/atmel/atngw100/Kconfig \
 	arch/avr32/Kconfig \
 	arch/arm/Kconfig.debug \
+	board/ti/nova/Kconfig \
 	board/zipitz2/Kconfig \
 	board/work-microwave/work_92105/Kconfig \
 	board/woodburn/Kconfig \

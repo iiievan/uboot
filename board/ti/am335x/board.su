@@ -1,6 +1,0 @@
-board.c:707:13:cpsw_control	0	static
-board.c:512:13:request_and_set_gpio	16	static
-board.c:68:6:do_board_detect	8	static
-board.c:557:5:board_init	16	static
-board.c:644:5:board_late_init	16	static
-board.c:764:5:board_eth_init	32	static

@@ -9,7 +9,7 @@ vsprintf.c:635:5:snprintf	16	static
 vsprintf.c:647:5:scnprintf	16	static
 vsprintf.c:672:5:vsprintf	0	static
 vsprintf.c:677:5:sprintf	12	static
-vsprintf.c:688:5:printf	1056	static
+vsprintf.c:688:5:printf	1064	static
 vsprintf.c:708:5:vprintf	1056	static
 vsprintf.c:725:6:__assert_fail	16	static
 vsprintf.c:733:7:simple_itoa	24	static

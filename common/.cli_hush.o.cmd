@@ -147,8 +147,8 @@ deps_common/cli_hush.o := \
     $(wildcard include/config/dm/spi.h) \
     $(wildcard include/config/dm/warn.h) \
     $(wildcard include/config/dm/stdio.h) \
-  include/configs/am335x_evm.h \
-    $(wildcard include/config/am335x/evm/h.h) \
+  include/configs/nova.h \
+    $(wildcard include/config/nova/h.h) \
     $(wildcard include/config/timestamp.h) \
     $(wildcard include/config/lzo.h) \
     $(wildcard include/config/sys/bootm/len.h) \

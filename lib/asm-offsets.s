@@ -2573,8 +2573,6 @@ main:
 	.ascii	"size\000"
 .LASF2:
 	.ascii	"short unsigned int\000"
-.LASF199:
-	.ascii	"/home/mbokastnev/u-boot\000"
 .LASF139:
 	.ascii	"IRQ_STACK_START\000"
 .LASF110:
@@ -2671,6 +2669,8 @@ main:
 	.ascii	"lmb_region\000"
 .LASF189:
 	.ascii	"net_state\000"
+.LASF199:
+	.ascii	"/home/mbokastnev/code/uboot\000"
 .LASF89:
 	.ascii	"ih_comp\000"
 .LASF120:

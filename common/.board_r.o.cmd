@@ -197,8 +197,8 @@ deps_common/board_r.o := \
     $(wildcard include/config/dm/i2c.h) \
     $(wildcard include/config/dm/warn.h) \
     $(wildcard include/config/dm/stdio.h) \
-  include/configs/am335x_evm.h \
-    $(wildcard include/config/am335x/evm/h.h) \
+  include/configs/nova.h \
+    $(wildcard include/config/nova/h.h) \
     $(wildcard include/config/timestamp.h) \
     $(wildcard include/config/lzo.h) \
     $(wildcard include/config/sys/bootm/len.h) \
@@ -208,6 +208,7 @@ deps_common/board_r.o := \
     $(wildcard include/config/efi/partition.h) \
     $(wildcard include/config/nand.h) \
     $(wildcard include/config/env/vars/uboot/runtime/config.h) \
+    $(wildcard include/config/sys/prompt.h) \
     $(wildcard include/config/bootcommand.h) \
     $(wildcard include/config/extra/env/settings.h) \
     $(wildcard include/config/sys/ns16550/com1.h) \
@@ -362,7 +363,6 @@ deps_common/board_r.o := \
     $(wildcard include/config/sys/maxargs.h) \
     $(wildcard include/config/sys/cbsize.h) \
     $(wildcard include/config/sys/pbsize.h) \
-    $(wildcard include/config/sys/prompt.h) \
     $(wildcard include/config/sys/bargsize.h) \
     $(wildcard include/config/nand/davinci.h) \
     $(wildcard include/config/mtd/device.h) \

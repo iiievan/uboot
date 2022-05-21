@@ -1,14 +1,14 @@
 console.c:103:12:console_setfile	16	static
 console.c:463:6:putc	0	static
 console.c:506:6:puts	0	static
-console.c:272:5:serial_printf	1056	static
+console.c:272:5:serial_printf	1064	static
 console.c:290:5:fgetc	0	static
 console.c:363:5:getc	0	static
 console.c:322:5:ftstc	0	static
 console.c:391:5:tstc	0	static
 console.c:330:6:fputc	0	static
 console.c:336:6:fputs	0	static
-console.c:342:5:fprintf	1060	static
+console.c:342:5:fprintf	1068	static
 console.c:580:5:ctrlc	8	static
 console.c:601:5:confirm_yesno	24	static
 console.c:628:5:disable_ctrlc	0	static

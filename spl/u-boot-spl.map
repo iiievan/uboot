@@ -231,35 +231,35 @@ Discarded input sections
  .__secure_start
                 0x0000000000000000        0x0 arch/arm/lib/built-in.o
  .bss           0x0000000000000000        0x0 arch/arm/lib/built-in.o
- .text          0x0000000000000000        0x0 board/ti/am335x/built-in.o
+ .text          0x0000000000000000        0x0 board/ti/nova/built-in.o
  .text.enable_uart1_pin_mux
-                0x0000000000000000        0xc board/ti/am335x/built-in.o
+                0x0000000000000000        0xc board/ti/nova/built-in.o
  .text.enable_uart2_pin_mux
-                0x0000000000000000        0xc board/ti/am335x/built-in.o
+                0x0000000000000000        0xc board/ti/nova/built-in.o
  .text.enable_uart3_pin_mux
-                0x0000000000000000        0xc board/ti/am335x/built-in.o
+                0x0000000000000000        0xc board/ti/nova/built-in.o
  .text.enable_uart4_pin_mux
-                0x0000000000000000        0xc board/ti/am335x/built-in.o
+                0x0000000000000000        0xc board/ti/nova/built-in.o
  .text.enable_uart5_pin_mux
-                0x0000000000000000        0xc board/ti/am335x/built-in.o
+                0x0000000000000000        0xc board/ti/nova/built-in.o
  .text.board_init
-                0x0000000000000000       0x18 board/ti/am335x/built-in.o
+                0x0000000000000000       0x18 board/ti/nova/built-in.o
  .text.board_late_init
-                0x0000000000000000       0x48 board/ti/am335x/built-in.o
+                0x0000000000000000       0x48 board/ti/nova/built-in.o
  .rodata.board_late_init.str1.1
-                0x0000000000000000       0x10 board/ti/am335x/built-in.o
- .data          0x0000000000000000        0x0 board/ti/am335x/built-in.o
+                0x0000000000000000       0x10 board/ti/nova/built-in.o
+ .data          0x0000000000000000        0x0 board/ti/nova/built-in.o
  .data.uart1_pin_mux
-                0x0000000000000000       0x18 board/ti/am335x/built-in.o
+                0x0000000000000000       0x18 board/ti/nova/built-in.o
  .data.uart2_pin_mux
-                0x0000000000000000       0x18 board/ti/am335x/built-in.o
+                0x0000000000000000       0x18 board/ti/nova/built-in.o
  .data.uart3_pin_mux
-                0x0000000000000000       0x18 board/ti/am335x/built-in.o
+                0x0000000000000000       0x18 board/ti/nova/built-in.o
  .data.uart4_pin_mux
-                0x0000000000000000       0x18 board/ti/am335x/built-in.o
+                0x0000000000000000       0x18 board/ti/nova/built-in.o
  .data.uart5_pin_mux
-                0x0000000000000000       0x18 board/ti/am335x/built-in.o
- .bss           0x0000000000000000        0x0 board/ti/am335x/built-in.o
+                0x0000000000000000       0x18 board/ti/nova/built-in.o
+ .bss           0x0000000000000000        0x0 board/ti/nova/built-in.o
  .text          0x0000000000000000        0x0 board/ti/common/built-in.o
  .text.ti_i2c_eeprom_dra7_get
                 0x0000000000000000       0xa8 board/ti/common/built-in.o
@@ -583,7 +583,7 @@ Discarded input sections
  .rodata.stdio_add_devices.str1.1
                 0x0000000000000000        0x7 common/built-in.o
  .rodata.cli_simple_loop.str1.1
-                0x0000000000000000       0x11 common/built-in.o
+                0x0000000000000000       0x15 common/built-in.o
  .rodata.cli_simple_parse_line.str1.1
                 0x0000000000000000       0x1f common/built-in.o
  .rodata.cli_simple_run_command.str1.1
@@ -605,7 +605,7 @@ Discarded input sections
  .rodata._do_help.str1.1
                 0x0000000000000000       0x5f common/built-in.o
  .rodata.cmd_auto_complete.str1.1
-                0x0000000000000000        0xf common/built-in.o
+                0x0000000000000000       0x13 common/built-in.o
  .rodata.cmd_process.str1.1
                 0x0000000000000000       0x3f common/built-in.o
  .rodata.cmd_process_error.str1.1
@@ -1372,7 +1372,7 @@ Discarded input sections
                 0x0000000000000000       0x38 arch/arm/lib/eabi_compat.o
  .debug_ranges  0x0000000000000000       0x28 arch/arm/lib/eabi_compat.o
  .debug_line    0x0000000000000000      0x1a3 arch/arm/lib/eabi_compat.o
- .debug_str     0x0000000000000000      0x947 arch/arm/lib/eabi_compat.o
+ .debug_str     0x0000000000000000      0x94b arch/arm/lib/eabi_compat.o
  .comment       0x0000000000000000       0x22 arch/arm/lib/eabi_compat.o
  .note.GNU-stack
                 0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
@@ -1619,37 +1619,37 @@ Linker script and memory map
                 0x00000000402f14f4                dcache_disable
  *fill*         0x00000000402f14fa        0x2 
  .text.enable_uart0_pin_mux
-                0x00000000402f14fc        0xc board/ti/am335x/built-in.o
+                0x00000000402f14fc        0xc board/ti/nova/built-in.o
                 0x00000000402f14fc                enable_uart0_pin_mux
  .text.enable_i2c0_pin_mux
-                0x00000000402f1508        0xc board/ti/am335x/built-in.o
+                0x00000000402f1508        0xc board/ti/nova/built-in.o
                 0x00000000402f1508                enable_i2c0_pin_mux
  .text.enable_board_pin_mux
-                0x00000000402f1514      0x144 board/ti/am335x/built-in.o
+                0x00000000402f1514      0x144 board/ti/nova/built-in.o
                 0x00000000402f1514                enable_board_pin_mux
  .text.do_board_detect
-                0x00000000402f1658       0x30 board/ti/am335x/built-in.o
+                0x00000000402f1658       0x30 board/ti/nova/built-in.o
                 0x00000000402f1658                do_board_detect
  .text.default_serial_console
-                0x00000000402f1688       0x34 board/ti/am335x/built-in.o
+                0x00000000402f1688       0x34 board/ti/nova/built-in.o
                 0x00000000402f1688                default_serial_console
  .text.spl_start_uboot
-                0x00000000402f16bc       0x30 board/ti/am335x/built-in.o
+                0x00000000402f16bc       0x30 board/ti/nova/built-in.o
                 0x00000000402f16bc                spl_start_uboot
  .text.am33xx_spl_board_init
-                0x00000000402f16ec      0x170 board/ti/am335x/built-in.o
+                0x00000000402f16ec      0x170 board/ti/nova/built-in.o
                 0x00000000402f16ec                am33xx_spl_board_init
  .text.get_dpll_ddr_params
-                0x00000000402f185c       0x78 board/ti/am335x/built-in.o
+                0x00000000402f185c       0x78 board/ti/nova/built-in.o
                 0x00000000402f185c                get_dpll_ddr_params
  .text.set_uart_mux_conf
-                0x00000000402f18d4        0x4 board/ti/am335x/built-in.o
+                0x00000000402f18d4        0x4 board/ti/nova/built-in.o
                 0x00000000402f18d4                set_uart_mux_conf
  .text.set_mux_conf_regs
-                0x00000000402f18d8        0x4 board/ti/am335x/built-in.o
+                0x00000000402f18d8        0x4 board/ti/nova/built-in.o
                 0x00000000402f18d8                set_mux_conf_regs
  .text.sdram_init
-                0x00000000402f18dc      0x160 board/ti/am335x/built-in.o
+                0x00000000402f18dc      0x160 board/ti/nova/built-in.o
                 0x00000000402f18dc                sdram_init
  .text.ti_eeprom_string_cleanup
                 0x00000000402f1a3c       0x22 board/ti/common/built-in.o
@@ -2544,7 +2544,7 @@ Linker script and memory map
  .iplt          0x00000000402fd14c        0x0 arch/arm/cpu/armv7/start.o
                 0x00000000402fd14c                . = ALIGN (0x4)
 
-.rodata         0x00000000402fd14c     0x3864
+.rodata         0x00000000402fd14c     0x3870
  *(SORT_BY_ALIGNMENT(.rodata*))
  .rodata        0x00000000402fd14c       0x84 arch/arm/mach-omap2/built-in.o
  .rodata.cmwkup
@@ -2590,49 +2590,49 @@ Linker script and memory map
                 0x00000000402fd34c        0x4 arch/arm/mach-omap2/built-in.o
                 0x00000000402fd34c                omap_gpio_bank
  .rodata.ddr2_cmd_ctrl_data
-                0x00000000402fd350       0x30 board/ti/am335x/built-in.o
+                0x00000000402fd350       0x30 board/ti/nova/built-in.o
  .rodata.ddr2_data
-                0x00000000402fd380       0x18 board/ti/am335x/built-in.o
+                0x00000000402fd380       0x18 board/ti/nova/built-in.o
  .rodata.ddr2_emif_reg_data
-                0x00000000402fd398       0x70 board/ti/am335x/built-in.o
+                0x00000000402fd398       0x70 board/ti/nova/built-in.o
  .rodata.ddr2_evm_emif_reg_data
-                0x00000000402fd408       0x70 board/ti/am335x/built-in.o
+                0x00000000402fd408       0x70 board/ti/nova/built-in.o
  .rodata.ddr3_beagleblack_cmd_ctrl_data
-                0x00000000402fd478       0x30 board/ti/am335x/built-in.o
+                0x00000000402fd478       0x30 board/ti/nova/built-in.o
  .rodata.ddr3_beagleblack_data
-                0x00000000402fd4a8       0x18 board/ti/am335x/built-in.o
+                0x00000000402fd4a8       0x18 board/ti/nova/built-in.o
  .rodata.ddr3_cmd_ctrl_data
-                0x00000000402fd4c0       0x30 board/ti/am335x/built-in.o
+                0x00000000402fd4c0       0x30 board/ti/nova/built-in.o
  .rodata.ddr3_data
-                0x00000000402fd4f0       0x18 board/ti/am335x/built-in.o
+                0x00000000402fd4f0       0x18 board/ti/nova/built-in.o
  .rodata.ddr3_evm_cmd_ctrl_data
-                0x00000000402fd508       0x30 board/ti/am335x/built-in.o
+                0x00000000402fd508       0x30 board/ti/nova/built-in.o
  .rodata.ddr3_evm_data
-                0x00000000402fd538       0x18 board/ti/am335x/built-in.o
+                0x00000000402fd538       0x18 board/ti/nova/built-in.o
  .rodata.ddr3_icev2_cmd_ctrl_data
-                0x00000000402fd550       0x30 board/ti/am335x/built-in.o
+                0x00000000402fd550       0x30 board/ti/nova/built-in.o
  .rodata.ddr3_icev2_data
-                0x00000000402fd580       0x18 board/ti/am335x/built-in.o
+                0x00000000402fd580       0x18 board/ti/nova/built-in.o
  .rodata.dpll_ddr
-                0x00000000402fd598       0x10 board/ti/am335x/built-in.o
+                0x00000000402fd598       0x10 board/ti/nova/built-in.o
                 0x00000000402fd598                dpll_ddr
  .rodata.dpll_ddr_bone_black
-                0x00000000402fd5a8       0x10 board/ti/am335x/built-in.o
+                0x00000000402fd5a8       0x10 board/ti/nova/built-in.o
                 0x00000000402fd5a8                dpll_ddr_bone_black
  .rodata.dpll_ddr_evm_sk
-                0x00000000402fd5b8       0x10 board/ti/am335x/built-in.o
+                0x00000000402fd5b8       0x10 board/ti/nova/built-in.o
                 0x00000000402fd5b8                dpll_ddr_evm_sk
  .rodata.ioregs
-                0x00000000402fd5c8       0x20 board/ti/am335x/built-in.o
+                0x00000000402fd5c8       0x20 board/ti/nova/built-in.o
                 0x00000000402fd5c8                ioregs
  .rodata.ioregs_bonelt
-                0x00000000402fd5e8       0x20 board/ti/am335x/built-in.o
+                0x00000000402fd5e8       0x20 board/ti/nova/built-in.o
                 0x00000000402fd5e8                ioregs_bonelt
  .rodata.ioregs_evm15
-                0x00000000402fd608       0x20 board/ti/am335x/built-in.o
+                0x00000000402fd608       0x20 board/ti/nova/built-in.o
                 0x00000000402fd608                ioregs_evm15
  .rodata.ioregs_evmsk
-                0x00000000402fd628       0x20 board/ti/am335x/built-in.o
+                0x00000000402fd628       0x20 board/ti/nova/built-in.o
                 0x00000000402fd628                ioregs_evmsk
  .rodata.CSWTCH.19
                 0x00000000402fd648       0x20 common/built-in.o
@@ -2681,484 +2681,484 @@ Linker script and memory map
  .rodata.do_reset.str1.1
                 0x00000000402fdec3        0xf arch/arm/lib/built-in.o
  .rodata.enable_board_pin_mux.str1.1
-                0x00000000402fded2       0x6a board/ti/am335x/built-in.o
+                0x00000000402fded2       0x6a board/ti/nova/built-in.o
                                          0x6c (size before relaxing)
  .rodata.am33xx_spl_board_init.str1.1
-                0x00000000402fdf3c       0x6b board/ti/am335x/built-in.o
+                0x00000000402fdf3c       0x6b board/ti/nova/built-in.o
                                          0x7d (size before relaxing)
  .rodata.default_serial_console.str1.1
-                0x00000000402fdfa7        0xb board/ti/am335x/built-in.o
+                0x00000000402fdfa7        0xb board/ti/nova/built-in.o
  .rodata.do_board_detect.str1.1
-                0x00000000402fdfa7       0x1b board/ti/am335x/built-in.o
+                0x00000000402fdfa7       0x1b board/ti/nova/built-in.o
  .rodata.get_dpll_ddr_params.str1.1
-                0x00000000402fdfc2        0x4 board/ti/am335x/built-in.o
+                0x00000000402fdfc2        0x4 board/ti/nova/built-in.o
                                          0x16 (size before relaxing)
  .rodata.sdram_init.str1.1
-                0x00000000402fdfc6        0xb board/ti/am335x/built-in.o
+                0x00000000402fdfc6        0xb board/ti/nova/built-in.o
  .rodata.spl_start_uboot.str1.1
-                0x00000000402fdfd1        0x8 board/ti/am335x/built-in.o
+                0x00000000402fdfd1        0x8 board/ti/nova/built-in.o
  .rodata.ti_i2c_eeprom_am_get.str1.1
                 0x00000000402fdfd9        0x5 board/ti/common/built-in.o
  .rodata.board_init_r.str1.1
                 0x00000000402fdfde       0x61 common/spl/built-in.o
  .rodata.preloader_console_init.str1.1
-                0x00000000402fe03f       0x2e common/spl/built-in.o
+                0x00000000402fe03f       0x3d common/spl/built-in.o
  .rodata.spl_parse_image_header.str1.1
-                0x00000000402fe06d        0x6 common/spl/built-in.o
+                0x00000000402fe07c        0x6 common/spl/built-in.o
  .rodata.spl_set_header_raw_uboot.str1.1
-                0x00000000402fe073        0x7 common/spl/built-in.o
+                0x00000000402fe082        0x7 common/spl/built-in.o
  .rodata.spl_ymodem_load_image.str1.1
-                0x00000000402fe07a       0x27 common/spl/built-in.o
+                0x00000000402fe089       0x27 common/spl/built-in.o
  .rodata.str1.1
-                0x00000000402fe0a1       0x16 common/spl/built-in.o
+                0x00000000402fe0b0       0x16 common/spl/built-in.o
  .rodata.mmc_load_image_raw_sector.str1.1
-                0x00000000402fe0b7       0x31 common/spl/built-in.o
+                0x00000000402fe0c6       0x31 common/spl/built-in.o
  .rodata.spl_mmc_get_device_index.str1.1
-                0x00000000402fe0e8       0x23 common/spl/built-in.o
+                0x00000000402fe0f7       0x23 common/spl/built-in.o
  .rodata.spl_mmc_load_image.str1.1
-                0x00000000402fe10b      0x12a common/spl/built-in.o
+                0x00000000402fe11a      0x12a common/spl/built-in.o
  .rodata.__func__.7795
-                0x00000000402fe235       0x18 common/spl/built-in.o
+                0x00000000402fe244       0x18 common/spl/built-in.o
  .rodata.__func__.7815
-                0x00000000402fe24d       0x13 common/spl/built-in.o
+                0x00000000402fe25c       0x13 common/spl/built-in.o
  .rodata.__func__.7824
-                0x00000000402fe260       0x16 common/spl/built-in.o
+                0x00000000402fe26f       0x16 common/spl/built-in.o
  .rodata.spl_load_image_fat.str1.1
-                0x00000000402fe276       0x41 common/spl/built-in.o
+                0x00000000402fe285       0x41 common/spl/built-in.o
  .rodata.spl_load_image_fat_os.str1.1
-                0x00000000402fe2b7      0x11c common/spl/built-in.o
+                0x00000000402fe2c6      0x11c common/spl/built-in.o
  .rodata.__func__.7418
-                0x00000000402fe3d3       0x13 common/spl/built-in.o
+                0x00000000402fe3e2       0x13 common/spl/built-in.o
  .rodata.__func__.7430
-                0x00000000402fe3e6       0x16 common/spl/built-in.o
+                0x00000000402fe3f5       0x16 common/spl/built-in.o
  .rodata.spl_load_image_ext.str1.1
-                0x00000000402fe3fc       0x94 common/spl/built-in.o
+                0x00000000402fe40b       0x94 common/spl/built-in.o
                                          0xba (size before relaxing)
  .rodata.spl_load_image_ext_os.str1.1
-                0x00000000402fe490      0x11c common/spl/built-in.o
- .rodata        0x00000000402fe490        0x3 common/built-in.o
+                0x00000000402fe49f      0x11c common/spl/built-in.o
+ .rodata        0x00000000402fe49f        0x3 common/built-in.o
  .rodata.str1.1
-                0x00000000402fe493      0x676 common/built-in.o
+                0x00000000402fe4a2      0x676 common/built-in.o
                                         0x69b (size before relaxing)
  .rodata.xyzModem_error.str1.1
-                0x00000000402feb09        0xe common/built-in.o
+                0x00000000402feb18        0xe common/built-in.o
  .rodata.xyzModem_stream_close.str1.1
-                0x00000000402feb17       0x47 common/built-in.o
+                0x00000000402feb26       0x47 common/built-in.o
                                          0x4b (size before relaxing)
  .rodata.xyzModem_stream_open.str1.1
-                0x00000000402feb5e       0x47 common/built-in.o
+                0x00000000402feb6d       0x47 common/built-in.o
                                           0x2 (size before relaxing)
  .rodata.regex_callback.str1.1
-                0x00000000402feb5e       0x20 common/built-in.o
+                0x00000000402feb6d       0x20 common/built-in.o
  .rodata.env_flags_init.str1.1
-                0x00000000402feb7e       0x57 common/built-in.o
+                0x00000000402feb8d       0x57 common/built-in.o
  .rodata.env_flags_parse_varaccess.str1.1
-                0x00000000402febd5       0x3d common/built-in.o
+                0x00000000402febe4       0x3d common/built-in.o
  .rodata.env_flags_parse_vartype.str1.1
-                0x00000000402fec12       0x34 common/built-in.o
+                0x00000000402fec21       0x34 common/built-in.o
  .rodata.env_flags_validate.str1.1
-                0x00000000402fec46       0xb2 common/built-in.o
+                0x00000000402fec55       0xb2 common/built-in.o
                                          0xb3 (size before relaxing)
  .rodata.env_flags_varaccess_rep
-                0x00000000402fecf8        0x5 common/built-in.o
+                0x00000000402fed07        0x5 common/built-in.o
  .rodata.env_flags_vartype_rep
-                0x00000000402fecfd        0x7 common/built-in.o
+                0x00000000402fed0c        0x7 common/built-in.o
  .rodata.env_callback_init.str1.1
-                0x00000000402fed04       0xff common/built-in.o
+                0x00000000402fed13       0xff common/built-in.o
  .rodata.env_relocate_spec.str1.1
-                0x00000000402fee03       0x88 common/built-in.o
+                0x00000000402fee12       0x88 common/built-in.o
  .rodata.init_mmc_for_env.str1.1
-                0x00000000402fee8b       0x5e common/built-in.o
+                0x00000000402fee9a       0x5e common/built-in.o
  .rodata.__func__.7525
-                0x00000000402feee9       0x10 common/built-in.o
+                0x00000000402feef8       0x10 common/built-in.o
  .rodata.__func__.7541
-                0x00000000402feef9        0xb common/built-in.o
+                0x00000000402fef08        0xb common/built-in.o
  .rodata.default_environment
-                0x00000000402fef04       0xe1 common/built-in.o
-                0x00000000402fef04                default_environment
+                0x00000000402fef13       0xde common/built-in.o
+                0x00000000402fef13                default_environment
  .rodata.env_import.str1.1
-                0x00000000402fefe5       0x4c common/built-in.o
+                0x00000000402feff1       0x4c common/built-in.o
                                          0x55 (size before relaxing)
  .rodata.set_default_env.str1.1
-                0x00000000402ff031       0x9b common/built-in.o
+                0x00000000402ff03d       0x9b common/built-in.o
  .rodata.getenv_f.str1.1
-                0x00000000402ff0cc       0x30 cmd/built-in.o
- .rodata        0x00000000402ff0fc       0x20 lib/built-in.o
+                0x00000000402ff0d8       0x30 cmd/built-in.o
+ .rodata        0x00000000402ff108       0x20 lib/built-in.o
  .rodata.himport_r.str1.1
-                0x00000000402ff11c       0x99 lib/built-in.o
+                0x00000000402ff128       0x99 lib/built-in.o
  .rodata._ctype
-                0x00000000402ff1b5      0x100 lib/built-in.o
-                0x00000000402ff1b5                _ctype
+                0x00000000402ff1c1      0x100 lib/built-in.o
+                0x00000000402ff1c1                _ctype
  .rodata.hang.str1.1
-                0x00000000402ff2b5       0x2a lib/built-in.o
+                0x00000000402ff2c1       0x2a lib/built-in.o
  .rodata.compile.str1.1
-                0x00000000402ff2df       0x4a lib/built-in.o
+                0x00000000402ff2eb       0x4a lib/built-in.o
  .rodata.emit.str1.1
-                0x00000000402ff329       0x1f lib/built-in.o
+                0x00000000402ff335       0x1f lib/built-in.o
  .rodata.match.str1.1
-                0x00000000402ff348       0x18 lib/built-in.o
+                0x00000000402ff354       0x18 lib/built-in.o
  .rodata.quantifier.str1.1
-                0x00000000402ff360       0x17 lib/built-in.o
+                0x00000000402ff36c       0x17 lib/built-in.o
  .rodata.store_char_in_data.str1.1
-                0x00000000402ff377       0x1f lib/built-in.o
+                0x00000000402ff383       0x1f lib/built-in.o
  .rodata.uuid_bin_to_str.str1.1
-                0x00000000402ff396       0x1f lib/built-in.o
+                0x00000000402ff3a2       0x1f lib/built-in.o
                                           0x5 (size before relaxing)
  .rodata.digits.7111
-                0x00000000402ff396       0x10 lib/built-in.o
+                0x00000000402ff3a2       0x10 lib/built-in.o
  .rodata.hex_asc
-                0x00000000402ff3a6       0x11 lib/built-in.o
+                0x00000000402ff3b2       0x11 lib/built-in.o
  .rodata.string.str1.1
-                0x00000000402ff3b7        0x7 lib/built-in.o
+                0x00000000402ff3c3        0x7 lib/built-in.o
  .rodata.part_set_generic_name.str1.1
-                0x00000000402ff3be        0xa disk/built-in.o
+                0x00000000402ff3ca        0xa disk/built-in.o
  .rodata.str1.1
-                0x00000000402ff3c8       0x1f disk/built-in.o
+                0x00000000402ff3d4       0x1f disk/built-in.o
                                          0x22 (size before relaxing)
  .rodata.part_get_info_extended.str1.1
-                0x00000000402ff3e7        0xa disk/built-in.o
+                0x00000000402ff3f3        0xa disk/built-in.o
                                          0x11 (size before relaxing)
  .rodata.print_partition_extended.str1.1
-                0x00000000402ff3f1       0x83 disk/built-in.o
+                0x00000000402ff3fd       0x83 disk/built-in.o
                                          0x84 (size before relaxing)
  .rodata.test_block_type.str1.1
-                0x00000000402ff474        0xa disk/built-in.o
+                0x00000000402ff480        0xa disk/built-in.o
  .rodata.part_get_info_iso_verb.str1.1
-                0x00000000402ff47e      0x1bf disk/built-in.o
+                0x00000000402ff48a      0x1bf disk/built-in.o
                                         0x1c6 (size before relaxing)
  .rodata.part_print_iso.str1.1
-                0x00000000402ff63d       0x68 disk/built-in.o
+                0x00000000402ff649       0x68 disk/built-in.o
  .rodata.__func__.7285
-                0x00000000402ff6a5       0x12 disk/built-in.o
+                0x00000000402ff6b1       0x12 disk/built-in.o
  .rodata.__func__.7414
-                0x00000000402ff6b7        0xd disk/built-in.o
+                0x00000000402ff6c3        0xd disk/built-in.o
  .rodata.__func__.7423
-                0x00000000402ff6c4       0x17 disk/built-in.o
+                0x00000000402ff6d0       0x17 disk/built-in.o
  .rodata.__func__.7428
-                0x00000000402ff6db        0xd disk/built-in.o
+                0x00000000402ff6e7        0xd disk/built-in.o
  .rodata.is_gpt_valid.str1.1
-                0x00000000402ff6e8       0xc4 disk/built-in.o
+                0x00000000402ff6f4       0xc4 disk/built-in.o
  .rodata.part_get_info_efi.str1.1
-                0x00000000402ff7ac       0x6c disk/built-in.o
+                0x00000000402ff7b8       0x6c disk/built-in.o
                                          0x76 (size before relaxing)
  .rodata.validate_gpt_entries.str1.1
-                0x00000000402ff818       0x40 disk/built-in.o
+                0x00000000402ff824       0x40 disk/built-in.o
  .rodata.validate_gpt_header.str1.1
-                0x00000000402ff858       0xe1 disk/built-in.o
+                0x00000000402ff864       0xe1 disk/built-in.o
  .rodata.i2c_get_adapter.str1.1
-                0x00000000402ff939       0x2d drivers/built-in.o
+                0x00000000402ff945       0x2d drivers/built-in.o
  .rodata.__func__.9427
-                0x00000000402ff966       0x14 drivers/built-in.o
+                0x00000000402ff972       0x14 drivers/built-in.o
  .rodata.__omap24_i2c_setspeed.str1.1
-                0x00000000402ff97a       0x4c drivers/built-in.o
+                0x00000000402ff986       0x4c drivers/built-in.o
  .rodata.omap24_get_base.isra.0.str1.1
-                0x00000000402ff9c6       0x14 drivers/built-in.o
+                0x00000000402ff9d2       0x14 drivers/built-in.o
  .rodata.omap24_i2c_init.str1.1
-                0x00000000402ff9da       0x45 drivers/built-in.o
+                0x00000000402ff9e6       0x45 drivers/built-in.o
  .rodata.omap24_i2c_probe.str1.1
-                0x00000000402ffa1f       0x3e drivers/built-in.o
+                0x00000000402ffa2b       0x3e drivers/built-in.o
  .rodata.omap24_i2c_read.str1.1
-                0x00000000402ffa5d      0x15c drivers/built-in.o
+                0x00000000402ffa69      0x15c drivers/built-in.o
  .rodata.omap24_i2c_setspeed.str1.1
-                0x00000000402ffbb9       0x4b drivers/built-in.o
+                0x00000000402ffbc5       0x4b drivers/built-in.o
  .rodata.omap24_i2c_write.str1.1
-                0x00000000402ffc04      0x1d6 drivers/built-in.o
+                0x00000000402ffc10      0x1d6 drivers/built-in.o
  .rodata.str1.1
-                0x00000000402ffdda       0x3e drivers/built-in.o
+                0x00000000402ffde6       0x3e drivers/built-in.o
                                          0x4b (size before relaxing)
  .rodata.wait_for_bb.str1.1
-                0x00000000402ffe18       0x27 drivers/built-in.o
+                0x00000000402ffe24       0x27 drivers/built-in.o
  .rodata.wait_for_event.str1.1
-                0x00000000402ffe3f       0x61 drivers/built-in.o
+                0x00000000402ffe4b       0x61 drivers/built-in.o
  .rodata.check_gpio.str1.1
-                0x00000000402ffea0       0x25 drivers/built-in.o
+                0x00000000402ffeac       0x25 drivers/built-in.o
  .rodata.find_mmc_device.str1.1
-                0x00000000402ffec5       0x19 drivers/built-in.o
+                0x00000000402ffed1       0x19 drivers/built-in.o
  .rodata.mmc_bread.str1.1
-                0x00000000402ffede       0x47 drivers/built-in.o
+                0x00000000402ffeea       0x47 drivers/built-in.o
  .rodata.mmc_send_status.str1.1
-                0x00000000402fff25       0x32 drivers/built-in.o
+                0x00000000402fff31       0x32 drivers/built-in.o
  .rodata.mmc_start_init.str1.1
-                0x00000000402fff57       0x3f drivers/built-in.o
+                0x00000000402fff63       0x3f drivers/built-in.o
  .rodata.mmc_startup.str1.1
-                0x00000000402fff96       0x3e drivers/built-in.o
+                0x00000000402fffa2       0x3e drivers/built-in.o
  .rodata.multipliers
-                0x00000000402fffd4       0x10 drivers/built-in.o
+                0x00000000402fffe0       0x10 drivers/built-in.o
  .rodata.__func__.10045
-                0x00000000402fffe4       0x10 drivers/built-in.o
+                0x00000000402ffff0       0x10 drivers/built-in.o
  .rodata.__func__.10075
-                0x00000000402ffff4       0x16 drivers/built-in.o
+                0x0000000040300000       0x16 drivers/built-in.o
  .rodata.__func__.10139
-                0x000000004030000a       0x19 drivers/built-in.o
+                0x0000000040300016       0x19 drivers/built-in.o
  .rodata.__func__.10154
-                0x0000000040300023       0x14 drivers/built-in.o
+                0x000000004030002f       0x14 drivers/built-in.o
  .rodata.__func__.10202
-                0x0000000040300037        0xe drivers/built-in.o
+                0x0000000040300043        0xe drivers/built-in.o
  .rodata.__func__.10237
-                0x0000000040300045        0xf drivers/built-in.o
+                0x0000000040300051        0xf drivers/built-in.o
  .rodata.__func__.10302
-                0x0000000040300054       0x13 drivers/built-in.o
+                0x0000000040300060       0x13 drivers/built-in.o
  .rodata.mmc_init_stream.str1.1
-                0x0000000040300067       0x3d drivers/built-in.o
+                0x0000000040300073       0x3d drivers/built-in.o
  .rodata.mmc_reset_controller_fsm.str1.1
-                0x00000000403000a4       0x2d drivers/built-in.o
+                0x00000000403000b0       0x2d drivers/built-in.o
  .rodata.omap_hsmmc_init_setup.str1.1
-                0x00000000403000d1       0x28 drivers/built-in.o
+                0x00000000403000dd       0x28 drivers/built-in.o
  .rodata.omap_hsmmc_send_cmd.str1.1
-                0x00000000403000f9       0x9d drivers/built-in.o
+                0x0000000040300105       0x9d drivers/built-in.o
  .rodata.omap_hsmmc_set_ios.str1.1
-                0x0000000040300196       0x1f drivers/built-in.o
+                0x00000000403001a2       0x1f drivers/built-in.o
  .rodata.omap_mmc_init.str1.1
-                0x00000000403001b5       0x1a drivers/built-in.o
+                0x00000000403001c1       0x1a drivers/built-in.o
  .rodata.get_current.str1.1
-                0x00000000403001cf       0x15 drivers/built-in.o
+                0x00000000403001db       0x15 drivers/built-in.o
  .rodata.init_peripheral_ep.str1.1
-                0x00000000403001e4        0x7 drivers/built-in.o
+                0x00000000403001f0        0x7 drivers/built-in.o
                                           0xf (size before relaxing)
  .rodata.__func__.10765
-                0x00000000403001eb        0xf drivers/built-in.o
+                0x00000000403001f7        0xf drivers/built-in.o
  .rodata.musb_g_ep0_irq.str1.1
-                0x00000000403001fa       0xb0 drivers/built-in.o
+                0x0000000040300206       0xb0 drivers/built-in.o
  .rodata.CSWTCH.48
-                0x00000000403002aa        0x6 drivers/built-in.o
+                0x00000000403002b6        0x6 drivers/built-in.o
  .rodata.__FUNCTION__.10636
-                0x00000000403002b0       0x12 drivers/built-in.o
+                0x00000000403002bc       0x12 drivers/built-in.o
  .rodata.musb_driver_name
-                0x00000000403002c2        0xa drivers/built-in.o
-                0x00000000403002c2                musb_driver_name
+                0x00000000403002ce        0xa drivers/built-in.o
+                0x00000000403002ce                musb_driver_name
  .rodata.musb_init_controller.str1.1
-                0x00000000403002cc       0xde drivers/built-in.o
+                0x00000000403002d8       0xde drivers/built-in.o
                                          0xe2 (size before relaxing)
  .rodata.musb_test_packet
-                0x00000000403003aa       0x35 drivers/built-in.o
+                0x00000000403003b6       0x35 drivers/built-in.o
  .rodata.__func__.10625
-                0x00000000403003df        0xf drivers/built-in.o
+                0x00000000403003eb        0xf drivers/built-in.o
  .rodata.__func__.10666
-                0x00000000403003ee       0x10 drivers/built-in.o
+                0x00000000403003fa       0x10 drivers/built-in.o
  .rodata.__func__.10689
-                0x00000000403003fe       0x14 drivers/built-in.o
+                0x000000004030040a       0x14 drivers/built-in.o
  .rodata.__func__.10703
-                0x0000000040300412        0xf drivers/built-in.o
+                0x000000004030041e        0xf drivers/built-in.o
  .rodata.__func__.10751
-                0x0000000040300421        0xd drivers/built-in.o
+                0x000000004030042d        0xd drivers/built-in.o
  .rodata.musb_h_ep0_flush_fifo.str1.1
-                0x000000004030042e       0x2b drivers/built-in.o
+                0x000000004030043a       0x2b drivers/built-in.o
  .rodata.musb_h_ep0_irq.str1.1
-                0x0000000040300459       0x34 drivers/built-in.o
+                0x0000000040300465       0x34 drivers/built-in.o
  .rodata.musb_host_rx.str1.1
-                0x000000004030048d       0x2f drivers/built-in.o
+                0x0000000040300499       0x2f drivers/built-in.o
  .rodata.musb_start_urb.str1.1
-                0x00000000403004bc       0x48 drivers/built-in.o
+                0x00000000403004c8       0x48 drivers/built-in.o
  .rodata.disk_write.str1.1
-                0x0000000040300504       0x18 fs/built-in.o
+                0x0000000040300510       0x18 fs/built-in.o
  .rodata.do_fat_read_at.str1.1
-                0x000000004030051c       0x82 fs/built-in.o
+                0x0000000040300528       0x82 fs/built-in.o
                                          0x83 (size before relaxing)
  .rodata.fat_register_device.str1.1
-                0x000000004030059e       0x2b fs/built-in.o
+                0x00000000403005aa       0x2b fs/built-in.o
  .rodata.fat_set_blk_dev.str1.1
-                0x00000000403005c9        0x3 fs/built-in.o
+                0x00000000403005d5        0x3 fs/built-in.o
                                           0xd (size before relaxing)
  .rodata.file_fat_read_at.str1.1
-                0x00000000403005cc        0xc fs/built-in.o
+                0x00000000403005d8        0xc fs/built-in.o
  .rodata.get_cluster.str1.1
-                0x00000000403005d8       0x25 fs/built-in.o
+                0x00000000403005e4       0x25 fs/built-in.o
  .rodata.get_fatent.str1.1
-                0x00000000403005fd       0x22 fs/built-in.o
+                0x0000000040300609       0x22 fs/built-in.o
  .rodata.get_vfatname.str1.1
-                0x000000004030061f       0x13 fs/built-in.o
+                0x000000004030062b       0x13 fs/built-in.o
  .rodata.read_bootsectandvi.str1.1
-                0x0000000040300632       0x1b fs/built-in.o
+                0x000000004030063e       0x1b fs/built-in.o
  .rodata.ext4fs_iterate_dir.str1.1
-                0x000000004030064d       0x4a fs/built-in.o
+                0x0000000040300659       0x4a fs/built-in.o
  .rodata.ext4fs_mount.str1.1
-                0x0000000040300697       0x24 fs/built-in.o
+                0x00000000403006a3       0x24 fs/built-in.o
  .rodata.read_allocated_block.str1.1
-                0x00000000403006bb      0x240 fs/built-in.o
+                0x00000000403006c7      0x240 fs/built-in.o
  .rodata.__func__.7549
-                0x00000000403008fb        0xf fs/built-in.o
+                0x0000000040300907        0xf fs/built-in.o
  .rodata.ext4fs_devread.str1.1
-                0x000000004030090a       0xa6 fs/built-in.o
+                0x0000000040300916       0xa6 fs/built-in.o
 
-.rel.dyn        0x00000000403009b0        0x0
- .rel.iplt      0x00000000403009b0        0x0 arch/arm/cpu/armv7/start.o
-                0x00000000403009b0                . = ALIGN (0x4)
+.rel.dyn        0x00000000403009bc        0x0
+ .rel.iplt      0x00000000403009bc        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000403009bc                . = ALIGN (0x4)
 
-.data           0x00000000403009b0      0xd24
+.data           0x00000000403009c0      0xd24
  *(SORT_BY_ALIGNMENT(.data*))
- .data          0x00000000403009b0       0xd8 arch/arm/lib/built-in.o
-                0x00000000403009b0                gdata
+ .data          0x00000000403009c0       0xd8 arch/arm/lib/built-in.o
+                0x00000000403009c0                gdata
  .data.dpll_mpu_opp100
-                0x0000000040300a88       0x10 arch/arm/mach-omap2/built-in.o
-                0x0000000040300a88                dpll_mpu_opp100
- .data.cstat    0x0000000040300a98        0x4 arch/arm/mach-omap2/built-in.o
-                0x0000000040300a98                cstat
+                0x0000000040300a98       0x10 arch/arm/mach-omap2/built-in.o
+                0x0000000040300a98                dpll_mpu_opp100
+ .data.cstat    0x0000000040300aa8        0x4 arch/arm/mach-omap2/built-in.o
+                0x0000000040300aa8                cstat
  .data.musb_config
-                0x0000000040300a9c       0x18 arch/arm/mach-omap2/built-in.o
+                0x0000000040300aac       0x18 arch/arm/mach-omap2/built-in.o
  .data.otg0_board_data
-                0x0000000040300ab4       0x14 arch/arm/mach-omap2/built-in.o
-                0x0000000040300ab4                otg0_board_data
+                0x0000000040300ac4       0x14 arch/arm/mach-omap2/built-in.o
+                0x0000000040300ac4                otg0_board_data
  .data.otg0_plat
-                0x0000000040300ac8       0x20 arch/arm/mach-omap2/built-in.o
+                0x0000000040300ad8       0x20 arch/arm/mach-omap2/built-in.o
  .data.otg1_board_data
-                0x0000000040300ae8       0x14 arch/arm/mach-omap2/built-in.o
-                0x0000000040300ae8                otg1_board_data
+                0x0000000040300af8       0x14 arch/arm/mach-omap2/built-in.o
+                0x0000000040300af8                otg1_board_data
  .data.otg1_plat
-                0x0000000040300afc       0x20 arch/arm/mach-omap2/built-in.o
+                0x0000000040300b0c       0x20 arch/arm/mach-omap2/built-in.o
  .data.gpio0_18_pin_mux
-                0x0000000040300b1c       0x10 board/ti/am335x/built-in.o
+                0x0000000040300b2c       0x10 board/ti/nova/built-in.o
  .data.gpio0_7_pin_mux
-                0x0000000040300b2c       0x10 board/ti/am335x/built-in.o
+                0x0000000040300b3c       0x10 board/ti/nova/built-in.o
  .data.i2c0_pin_mux
-                0x0000000040300b3c       0x18 board/ti/am335x/built-in.o
+                0x0000000040300b4c       0x18 board/ti/nova/built-in.o
  .data.i2c1_pin_mux
-                0x0000000040300b54       0x18 board/ti/am335x/built-in.o
+                0x0000000040300b64       0x18 board/ti/nova/built-in.o
  .data.mii1_pin_mux
-                0x0000000040300b6c       0x80 board/ti/am335x/built-in.o
+                0x0000000040300b7c       0x80 board/ti/nova/built-in.o
  .data.mmc0_no_cd_pin_mux
-                0x0000000040300bec       0x40 board/ti/am335x/built-in.o
+                0x0000000040300bfc       0x40 board/ti/nova/built-in.o
  .data.mmc0_pin_mux
-                0x0000000040300c2c       0x48 board/ti/am335x/built-in.o
+                0x0000000040300c3c       0x48 board/ti/nova/built-in.o
  .data.mmc0_pin_mux_sk_evm
-                0x0000000040300c74       0x40 board/ti/am335x/built-in.o
+                0x0000000040300c84       0x40 board/ti/nova/built-in.o
  .data.mmc1_pin_mux
-                0x0000000040300cb4       0x48 board/ti/am335x/built-in.o
+                0x0000000040300cc4       0x48 board/ti/nova/built-in.o
  .data.rgmii1_pin_mux
-                0x0000000040300cfc       0x78 board/ti/am335x/built-in.o
+                0x0000000040300d0c       0x78 board/ti/nova/built-in.o
  .data.rmii1_pin_mux
-                0x0000000040300d74       0x58 board/ti/am335x/built-in.o
+                0x0000000040300d84       0x58 board/ti/nova/built-in.o
  .data.spi0_pin_mux
-                0x0000000040300dcc       0x28 board/ti/am335x/built-in.o
+                0x0000000040300ddc       0x28 board/ti/nova/built-in.o
  .data.uart0_pin_mux
-                0x0000000040300df4       0x18 board/ti/am335x/built-in.o
+                0x0000000040300e04       0x18 board/ti/nova/built-in.o
  .data.uart3_icev2_pin_mux
-                0x0000000040300e0c       0x18 board/ti/am335x/built-in.o
+                0x0000000040300e1c       0x18 board/ti/nova/built-in.o
  .data.ddr3_beagleblack_emif_reg_data
-                0x0000000040300e24       0x70 board/ti/am335x/built-in.o
+                0x0000000040300e34       0x70 board/ti/nova/built-in.o
  .data.ddr3_emif_reg_data
-                0x0000000040300e94       0x70 board/ti/am335x/built-in.o
+                0x0000000040300ea4       0x70 board/ti/nova/built-in.o
  .data.ddr3_evm_emif_reg_data
-                0x0000000040300f04       0x70 board/ti/am335x/built-in.o
+                0x0000000040300f14       0x70 board/ti/nova/built-in.o
  .data.ddr3_icev2_emif_reg_data
-                0x0000000040300f74       0x70 board/ti/am335x/built-in.o
- .data          0x0000000040300fe4       0x50 common/spl/built-in.o
+                0x0000000040300f84       0x70 board/ti/nova/built-in.o
+ .data          0x0000000040300ff4       0x50 common/spl/built-in.o
  .data.first_call
-                0x0000000040301034        0x8 common/built-in.o
+                0x0000000040301044        0x8 common/built-in.o
  .data.env_htab
-                0x000000004030103c       0x10 common/built-in.o
-                0x000000004030103c                env_htab
- .data.av_      0x000000004030104c      0x408 common/built-in.o
+                0x000000004030104c       0x10 common/built-in.o
+                0x000000004030104c                env_htab
+ .data.av_      0x000000004030105c      0x408 common/built-in.o
  .data.sbrk_base
-                0x0000000040301454        0x4 common/built-in.o
+                0x0000000040301464        0x4 common/built-in.o
  .data.trim_threshold
-                0x0000000040301458        0x4 common/built-in.o
+                0x0000000040301468        0x4 common/built-in.o
  .data.cur_dev_num
-                0x000000004030145c        0x4 drivers/built-in.o
+                0x000000004030146c        0x4 drivers/built-in.o
  .data.eserial1_device
-                0x0000000040301460       0x30 drivers/built-in.o
-                0x0000000040301460                eserial1_device
+                0x0000000040301470       0x30 drivers/built-in.o
+                0x0000000040301470                eserial1_device
  .data.eserial4_device
-                0x0000000040301490       0x30 drivers/built-in.o
-                0x0000000040301490                eserial4_device
+                0x00000000403014a0       0x30 drivers/built-in.o
+                0x00000000403014a0                eserial4_device
  .data.musb_dsps_ops
-                0x00000000403014c0       0x24 drivers/built-in.o
-                0x00000000403014c0                musb_dsps_ops
+                0x00000000403014d0       0x24 drivers/built-in.o
+                0x00000000403014d0                musb_dsps_ops
  .data.wdt_trgr_pattern
-                0x00000000403014e4        0x4 drivers/built-in.o
+                0x00000000403014f4        0x4 drivers/built-in.o
  .data.ext4fs_indir1_blkno
-                0x00000000403014e8        0x4 fs/built-in.o
-                0x00000000403014e8                ext4fs_indir1_blkno
+                0x00000000403014f8        0x4 fs/built-in.o
+                0x00000000403014f8                ext4fs_indir1_blkno
  .data.ext4fs_indir2_blkno
-                0x00000000403014ec        0x4 fs/built-in.o
-                0x00000000403014ec                ext4fs_indir2_blkno
+                0x00000000403014fc        0x4 fs/built-in.o
+                0x00000000403014fc                ext4fs_indir2_blkno
  .data.ext4fs_indir3_blkno
-                0x00000000403014f0        0x4 fs/built-in.o
-                0x00000000403014f0                ext4fs_indir3_blkno
- .data.ep0_cfg  0x00000000403014f4        0x6 drivers/built-in.o
+                0x0000000040301500        0x4 fs/built-in.o
+                0x0000000040301500                ext4fs_indir3_blkno
+ .data.ep0_cfg  0x0000000040301504        0x6 drivers/built-in.o
  .data.fifo_mode
-                0x00000000403014fa        0x2 drivers/built-in.o
+                0x000000004030150a        0x2 drivers/built-in.o
  .data.mode_0_cfg
-                0x00000000403014fc       0x1e drivers/built-in.o
+                0x000000004030150c       0x1e drivers/built-in.o
  .data.mode_1_cfg
-                0x000000004030151a       0x1e drivers/built-in.o
+                0x000000004030152a       0x1e drivers/built-in.o
  .data.mode_2_cfg
-                0x0000000040301538       0x24 drivers/built-in.o
+                0x0000000040301548       0x24 drivers/built-in.o
  .data.mode_3_cfg
-                0x000000004030155c       0x24 drivers/built-in.o
+                0x000000004030156c       0x24 drivers/built-in.o
  .data.mode_4_cfg
-                0x0000000040301580       0xa2 drivers/built-in.o
+                0x0000000040301590       0xa2 drivers/built-in.o
  .data.mode_5_cfg
-                0x0000000040301622       0xa2 drivers/built-in.o
+                0x0000000040301632       0xa2 drivers/built-in.o
  .data.system_guid
-                0x00000000403016c4       0x10 disk/built-in.o
+                0x00000000403016d4       0x10 disk/built-in.o
 
-.igot.plt       0x00000000403016d4        0x0
- .igot.plt      0x00000000403016d4        0x0 arch/arm/cpu/armv7/start.o
+.igot.plt       0x00000000403016e4        0x0
+ .igot.plt      0x00000000403016e4        0x0 arch/arm/cpu/armv7/start.o
 
-.u_boot_list    0x00000000403016d4      0x144
+.u_boot_list    0x00000000403016e4      0x144
  *(SORT_BY_NAME(.u_boot_list*))
  .u_boot_list_2_blk_driver_1
-                0x00000000403016d4        0x0 drivers/built-in.o
+                0x00000000403016e4        0x0 drivers/built-in.o
  .u_boot_list_2_blk_driver_2_mmc
-                0x00000000403016d4       0x18 drivers/built-in.o
-                0x00000000403016d4                _u_boot_list_2_blk_driver_2_mmc
+                0x00000000403016e4       0x18 drivers/built-in.o
+                0x00000000403016e4                _u_boot_list_2_blk_driver_2_mmc
  .u_boot_list_2_blk_driver_3
-                0x00000000403016ec        0x0 drivers/built-in.o
+                0x00000000403016fc        0x0 drivers/built-in.o
  .u_boot_list_2_cmd_1
-                0x00000000403016ec        0x0 common/built-in.o
+                0x00000000403016fc        0x0 common/built-in.o
  .u_boot_list_2_cmd_3
-                0x00000000403016ec        0x0 common/built-in.o
+                0x00000000403016fc        0x0 common/built-in.o
  .u_boot_list_2_driver_info_2_am33xx_uarts
-                0x00000000403016ec       0x30 arch/arm/mach-omap2/built-in.o
-                0x00000000403016ec                _u_boot_list_2_driver_info_2_am33xx_uarts
+                0x00000000403016fc       0x30 arch/arm/mach-omap2/built-in.o
+                0x00000000403016fc                _u_boot_list_2_driver_info_2_am33xx_uarts
  .u_boot_list_2_env_clbk_1
-                0x000000004030171c        0x0 common/built-in.o
+                0x000000004030172c        0x0 common/built-in.o
  .u_boot_list_2_env_clbk_3
-                0x000000004030171c        0x0 common/built-in.o
+                0x000000004030172c        0x0 common/built-in.o
  .u_boot_list_2_i2c_1
-                0x000000004030171c        0x0 drivers/built-in.o
+                0x000000004030172c        0x0 drivers/built-in.o
  .u_boot_list_2_i2c_2_omap24_0
-                0x000000004030171c       0x2c drivers/built-in.o
-                0x000000004030171c                _u_boot_list_2_i2c_2_omap24_0
+                0x000000004030172c       0x2c drivers/built-in.o
+                0x000000004030172c                _u_boot_list_2_i2c_2_omap24_0
  .u_boot_list_2_i2c_2_omap24_1
-                0x0000000040301748       0x2c drivers/built-in.o
-                0x0000000040301748                _u_boot_list_2_i2c_2_omap24_1
+                0x0000000040301758       0x2c drivers/built-in.o
+                0x0000000040301758                _u_boot_list_2_i2c_2_omap24_1
  .u_boot_list_2_i2c_2_omap24_2
-                0x0000000040301774       0x2c drivers/built-in.o
-                0x0000000040301774                _u_boot_list_2_i2c_2_omap24_2
+                0x0000000040301784       0x2c drivers/built-in.o
+                0x0000000040301784                _u_boot_list_2_i2c_2_omap24_2
  .u_boot_list_2_i2c_3
-                0x00000000403017a0        0x0 drivers/built-in.o
+                0x00000000403017b0        0x0 drivers/built-in.o
  .u_boot_list_2_part_driver_1
-                0x00000000403017a0        0x0 disk/built-in.o
+                0x00000000403017b0        0x0 disk/built-in.o
  .u_boot_list_2_part_driver_2_a_efi
-                0x00000000403017a0       0x18 disk/built-in.o
-                0x00000000403017a0                _u_boot_list_2_part_driver_2_a_efi
+                0x00000000403017b0       0x18 disk/built-in.o
+                0x00000000403017b0                _u_boot_list_2_part_driver_2_a_efi
  .u_boot_list_2_part_driver_2_dos
-                0x00000000403017b8       0x18 disk/built-in.o
-                0x00000000403017b8                _u_boot_list_2_part_driver_2_dos
+                0x00000000403017c8       0x18 disk/built-in.o
+                0x00000000403017c8                _u_boot_list_2_part_driver_2_dos
  .u_boot_list_2_part_driver_2_iso
-                0x00000000403017d0       0x18 disk/built-in.o
-                0x00000000403017d0                _u_boot_list_2_part_driver_2_iso
+                0x00000000403017e0       0x18 disk/built-in.o
+                0x00000000403017e0                _u_boot_list_2_part_driver_2_iso
  .u_boot_list_2_part_driver_3
-                0x00000000403017e8        0x0 disk/built-in.o
+                0x00000000403017f8        0x0 disk/built-in.o
  .u_boot_list_2_spl_image_loader_1
-                0x00000000403017e8        0x0 common/spl/built-in.o
+                0x00000000403017f8        0x0 common/spl/built-in.o
  .u_boot_list_2_spl_image_loader_2_spl_mmc_load_image0BOOT_DEVICE_MMC1
-                0x00000000403017e8        0xc common/spl/built-in.o
-                0x00000000403017e8                _u_boot_list_2_spl_image_loader_2_spl_mmc_load_image0BOOT_DEVICE_MMC1
+                0x00000000403017f8        0xc common/spl/built-in.o
+                0x00000000403017f8                _u_boot_list_2_spl_image_loader_2_spl_mmc_load_image0BOOT_DEVICE_MMC1
  .u_boot_list_2_spl_image_loader_2_spl_mmc_load_image0BOOT_DEVICE_MMC2
-                0x00000000403017f4        0xc common/spl/built-in.o
-                0x00000000403017f4                _u_boot_list_2_spl_image_loader_2_spl_mmc_load_image0BOOT_DEVICE_MMC2
+                0x0000000040301804        0xc common/spl/built-in.o
+                0x0000000040301804                _u_boot_list_2_spl_image_loader_2_spl_mmc_load_image0BOOT_DEVICE_MMC2
  .u_boot_list_2_spl_image_loader_2_spl_mmc_load_image0BOOT_DEVICE_MMC2_2
-                0x0000000040301800        0xc common/spl/built-in.o
-                0x0000000040301800                _u_boot_list_2_spl_image_loader_2_spl_mmc_load_image0BOOT_DEVICE_MMC2_2
+                0x0000000040301810        0xc common/spl/built-in.o
+                0x0000000040301810                _u_boot_list_2_spl_image_loader_2_spl_mmc_load_image0BOOT_DEVICE_MMC2_2
  .u_boot_list_2_spl_image_loader_2_spl_ymodem_load_image0BOOT_DEVICE_UART
-                0x000000004030180c        0xc common/spl/built-in.o
-                0x000000004030180c                _u_boot_list_2_spl_image_loader_2_spl_ymodem_load_image0BOOT_DEVICE_UART
+                0x000000004030181c        0xc common/spl/built-in.o
+                0x000000004030181c                _u_boot_list_2_spl_image_loader_2_spl_ymodem_load_image0BOOT_DEVICE_UART
  .u_boot_list_2_spl_image_loader_3
-                0x0000000040301818        0x0 common/spl/built-in.o
-                0x0000000040301818                . = ALIGN (0x4)
-                0x0000000040301818                __image_copy_end = .
+                0x0000000040301828        0x0 common/spl/built-in.o
+                0x0000000040301828                . = ALIGN (0x4)
+                0x0000000040301828                __image_copy_end = .
 
 .end
  *(.__end)
@@ -3278,7 +3278,7 @@ LOAD arch/arm/mach-omap2/built-in.o
 LOAD arch/arm/cpu/armv7/built-in.o
 LOAD arch/arm/cpu/built-in.o
 LOAD arch/arm/lib/built-in.o
-LOAD board/ti/am335x/built-in.o
+LOAD board/ti/nova/built-in.o
 LOAD board/ti/common/built-in.o
 LOAD common/spl/built-in.o
 LOAD common/init/built-in.o
@@ -3305,7 +3305,7 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .ARM.attributes
                 0x000000000000007b       0x2b arch/arm/lib/built-in.o
  .ARM.attributes
-                0x00000000000000a6       0x2d board/ti/am335x/built-in.o
+                0x00000000000000a6       0x2d board/ti/nova/built-in.o
  .ARM.attributes
                 0x00000000000000d3       0x2d board/ti/common/built-in.o
  .ARM.attributes
@@ -3334,7 +3334,7 @@ OUTPUT(u-boot-spl elf32-littlearm)
                                         0x1dc (size before relaxing)
  .comment       0x0000000000000021       0x88 arch/arm/cpu/armv7/built-in.o
  .comment       0x0000000000000021      0x132 arch/arm/lib/built-in.o
- .comment       0x0000000000000021       0x44 board/ti/am335x/built-in.o
+ .comment       0x0000000000000021       0x44 board/ti/nova/built-in.o
  .comment       0x0000000000000021       0x22 board/ti/common/built-in.o
  .comment       0x0000000000000021       0xaa common/spl/built-in.o
  .comment       0x0000000000000021       0x22 common/init/built-in.o
@@ -3355,7 +3355,7 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .note.GNU-stack
                 0x0000000000000000        0x0 arch/arm/lib/built-in.o
  .note.GNU-stack
-                0x0000000000000000        0x0 board/ti/am335x/built-in.o
+                0x0000000000000000        0x0 board/ti/nova/built-in.o
  .note.GNU-stack
                 0x0000000000000000        0x0 board/ti/common/built-in.o
  .note.GNU-stack
@@ -3377,48 +3377,48 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .note.GNU-stack
                 0x0000000000000000        0x0 arch/arm/lib/lib.a(div0.o)
 
-.debug_line     0x0000000000000000    0x2e443
+.debug_line     0x0000000000000000    0x2e43b
  .debug_line    0x0000000000000000       0x89 arch/arm/cpu/armv7/start.o
  .debug_line    0x0000000000000089     0x2f23 arch/arm/mach-omap2/built-in.o
  .debug_line    0x0000000000002fac      0x8eb arch/arm/cpu/armv7/built-in.o
  .debug_line    0x0000000000003897     0x1426 arch/arm/lib/built-in.o
- .debug_line    0x0000000000004cbd      0xba2 board/ti/am335x/built-in.o
- .debug_line    0x000000000000585f      0x57a board/ti/common/built-in.o
- .debug_line    0x0000000000005dd9     0x145d common/spl/built-in.o
- .debug_line    0x0000000000007236      0x1ee common/init/built-in.o
- .debug_line    0x0000000000007424     0x7e6f common/built-in.o
- .debug_line    0x000000000000f293      0x580 cmd/built-in.o
- .debug_line    0x000000000000f813     0x5a4d lib/built-in.o
- .debug_line    0x0000000000015260     0x2a7f disk/built-in.o
- .debug_line    0x0000000000017cdf     0xd6a7 drivers/built-in.o
- .debug_line    0x0000000000025386     0x8f83 fs/built-in.o
- .debug_line    0x000000000002e309       0xf1 arch/arm/lib/lib.a(lib1funcs.o)
- .debug_line    0x000000000002e3fa       0x49 arch/arm/lib/lib.a(div0.o)
+ .debug_line    0x0000000000004cbd      0xb9a board/ti/nova/built-in.o
+ .debug_line    0x0000000000005857      0x57a board/ti/common/built-in.o
+ .debug_line    0x0000000000005dd1     0x145d common/spl/built-in.o
+ .debug_line    0x000000000000722e      0x1ee common/init/built-in.o
+ .debug_line    0x000000000000741c     0x7e6f common/built-in.o
+ .debug_line    0x000000000000f28b      0x580 cmd/built-in.o
+ .debug_line    0x000000000000f80b     0x5a4d lib/built-in.o
+ .debug_line    0x0000000000015258     0x2a7f disk/built-in.o
+ .debug_line    0x0000000000017cd7     0xd6a7 drivers/built-in.o
+ .debug_line    0x000000000002537e     0x8f83 fs/built-in.o
+ .debug_line    0x000000000002e301       0xf1 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_line    0x000000000002e3f2       0x49 arch/arm/lib/lib.a(div0.o)
 
-.debug_info     0x0000000000000000    0xbc0e7
+.debug_info     0x0000000000000000    0xbc0e5
  .debug_info    0x0000000000000000       0x26 arch/arm/cpu/armv7/start.o
  .debug_info    0x0000000000000026    0x16f3a arch/arm/mach-omap2/built-in.o
  .debug_info    0x0000000000016f60     0x35ea arch/arm/cpu/armv7/built-in.o
  .debug_info    0x000000000001a54a     0x7b70 arch/arm/lib/built-in.o
- .debug_info    0x00000000000220ba     0x4d4b board/ti/am335x/built-in.o
+ .debug_info    0x00000000000220ba     0x4d4b board/ti/nova/built-in.o
  .debug_info    0x0000000000026e05     0x32de board/ti/common/built-in.o
  .debug_info    0x000000000002a0e3     0x8ed7 common/spl/built-in.o
  .debug_info    0x0000000000032fba      0xefb common/init/built-in.o
  .debug_info    0x0000000000033eb5    0x1dd80 common/built-in.o
  .debug_info    0x0000000000051c35     0x1905 cmd/built-in.o
- .debug_info    0x000000000005353a    0x11efe lib/built-in.o
- .debug_info    0x0000000000065438     0x91f7 disk/built-in.o
- .debug_info    0x000000000006e62f    0x36564 drivers/built-in.o
- .debug_info    0x00000000000a4b93    0x174d8 fs/built-in.o
- .debug_info    0x00000000000bc06b       0x22 arch/arm/lib/lib.a(lib1funcs.o)
- .debug_info    0x00000000000bc08d       0x5a arch/arm/lib/lib.a(div0.o)
+ .debug_info    0x000000000005353a    0x11efc lib/built-in.o
+ .debug_info    0x0000000000065436     0x91f7 disk/built-in.o
+ .debug_info    0x000000000006e62d    0x36564 drivers/built-in.o
+ .debug_info    0x00000000000a4b91    0x174d8 fs/built-in.o
+ .debug_info    0x00000000000bc069       0x22 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_info    0x00000000000bc08b       0x5a arch/arm/lib/lib.a(div0.o)
 
 .debug_abbrev   0x0000000000000000    0x18e84
  .debug_abbrev  0x0000000000000000       0x14 arch/arm/cpu/armv7/start.o
  .debug_abbrev  0x0000000000000014     0x2e57 arch/arm/mach-omap2/built-in.o
  .debug_abbrev  0x0000000000002e6b      0xad0 arch/arm/cpu/armv7/built-in.o
  .debug_abbrev  0x000000000000393b     0x158f arch/arm/lib/built-in.o
- .debug_abbrev  0x0000000000004eca      0x78c board/ti/am335x/built-in.o
+ .debug_abbrev  0x0000000000004eca      0x78c board/ti/nova/built-in.o
  .debug_abbrev  0x0000000000005656      0x475 board/ti/common/built-in.o
  .debug_abbrev  0x0000000000005acb     0x1461 common/spl/built-in.o
  .debug_abbrev  0x0000000000006f2c      0x2a0 common/init/built-in.o
@@ -3441,7 +3441,7 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .debug_aranges
                 0x00000000000004f8      0x248 arch/arm/lib/built-in.o
  .debug_aranges
-                0x0000000000000740       0xc0 board/ti/am335x/built-in.o
+                0x0000000000000740       0xc0 board/ti/nova/built-in.o
  .debug_aranges
                 0x0000000000000800       0x88 board/ti/common/built-in.o
  .debug_aranges
@@ -3466,43 +3466,43 @@ OUTPUT(u-boot-spl elf32-littlearm)
                 0x00000000000025a8       0x20 arch/arm/lib/lib.a(div0.o)
 
 .debug_str      0x0000000000000000    0x11ba1
- .debug_str     0x0000000000000000       0x3f arch/arm/cpu/armv7/start.o
- .debug_str     0x000000000000003f     0x615e arch/arm/mach-omap2/built-in.o
-                                      0x10946 (size before relaxing)
- .debug_str     0x000000000000619d      0x392 arch/arm/cpu/armv7/built-in.o
-                                       0x272e (size before relaxing)
- .debug_str     0x000000000000652f      0x43d arch/arm/lib/built-in.o
-                                       0x5642 (size before relaxing)
- .debug_str     0x000000000000696c      0xfbc board/ti/am335x/built-in.o
-                                       0x31dd (size before relaxing)
+ .debug_str     0x0000000000000000       0x43 arch/arm/cpu/armv7/start.o
+ .debug_str     0x0000000000000043     0x615e arch/arm/mach-omap2/built-in.o
+                                      0x10982 (size before relaxing)
+ .debug_str     0x00000000000061a1      0x392 arch/arm/cpu/armv7/built-in.o
+                                       0x2746 (size before relaxing)
+ .debug_str     0x0000000000006533      0x43d arch/arm/lib/built-in.o
+                                       0x566e (size before relaxing)
+ .debug_str     0x0000000000006970      0xfb8 board/ti/nova/built-in.o
+                                       0x31e1 (size before relaxing)
  .debug_str     0x0000000000007928      0x19a board/ti/common/built-in.o
-                                       0x31eb (size before relaxing)
+                                       0x31ef (size before relaxing)
  .debug_str     0x0000000000007ac2     0x1268 common/spl/built-in.o
-                                       0x5bea (size before relaxing)
+                                       0x5bfe (size before relaxing)
  .debug_str     0x0000000000008d2a       0x55 common/init/built-in.o
-                                        0xae8 (size before relaxing)
+                                        0xaec (size before relaxing)
  .debug_str     0x0000000000008d7f     0x2d3c common/built-in.o
-                                      0x10634 (size before relaxing)
+                                      0x10680 (size before relaxing)
  .debug_str     0x000000000000babb       0xbc cmd/built-in.o
-                                        0xd00 (size before relaxing)
+                                        0xd04 (size before relaxing)
  .debug_str     0x000000000000bb77      0x8e4 lib/built-in.o
-                                       0xa8e1 (size before relaxing)
+                                       0xa931 (size before relaxing)
  .debug_str     0x000000000000c45b      0xb36 disk/built-in.o
-                                       0x3e0b (size before relaxing)
+                                       0x3e1b (size before relaxing)
  .debug_str     0x000000000000cf91     0x305b drivers/built-in.o
-                                      0x18e36 (size before relaxing)
+                                      0x18e82 (size before relaxing)
  .debug_str     0x000000000000ffec     0x1b81 fs/built-in.o
-                                       0x8e14 (size before relaxing)
+                                       0x8e30 (size before relaxing)
  .debug_str     0x0000000000011b6d       0x19 arch/arm/lib/lib.a(lib1funcs.o)
-                                         0x3d (size before relaxing)
+                                         0x41 (size before relaxing)
  .debug_str     0x0000000000011b86       0x1b arch/arm/lib/lib.a(div0.o)
-                                        0x165 (size before relaxing)
+                                        0x169 (size before relaxing)
 
 .debug_frame    0x0000000000000000     0x6430
  .debug_frame   0x0000000000000000      0x76c arch/arm/mach-omap2/built-in.o
  .debug_frame   0x000000000000076c      0x1ec arch/arm/cpu/armv7/built-in.o
  .debug_frame   0x0000000000000958      0x3b8 arch/arm/lib/built-in.o
- .debug_frame   0x0000000000000d10      0x1ac board/ti/am335x/built-in.o
+ .debug_frame   0x0000000000000d10      0x1ac board/ti/nova/built-in.o
  .debug_frame   0x0000000000000ebc      0x164 board/ti/common/built-in.o
  .debug_frame   0x0000000000001020      0x2a8 common/spl/built-in.o
  .debug_frame   0x00000000000012c8       0x48 common/init/built-in.o
@@ -3518,7 +3518,7 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .debug_loc     0x0000000000000000     0x2a32 arch/arm/mach-omap2/built-in.o
  .debug_loc     0x0000000000002a32      0x5a3 arch/arm/cpu/armv7/built-in.o
  .debug_loc     0x0000000000002fd5      0x919 arch/arm/lib/built-in.o
- .debug_loc     0x00000000000038ee       0xdf board/ti/am335x/built-in.o
+ .debug_loc     0x00000000000038ee       0xdf board/ti/nova/built-in.o
  .debug_loc     0x00000000000039cd      0x661 board/ti/common/built-in.o
  .debug_loc     0x000000000000402e     0x16ed common/spl/built-in.o
  .debug_loc     0x000000000000571b      0x130 common/init/built-in.o
@@ -3533,7 +3533,7 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .debug_ranges  0x0000000000000000      0x860 arch/arm/mach-omap2/built-in.o
  .debug_ranges  0x0000000000000860      0x108 arch/arm/cpu/armv7/built-in.o
  .debug_ranges  0x0000000000000968      0x390 arch/arm/lib/built-in.o
- .debug_ranges  0x0000000000000cf8      0x188 board/ti/am335x/built-in.o
+ .debug_ranges  0x0000000000000cf8      0x188 board/ti/nova/built-in.o
  .debug_ranges  0x0000000000000e80       0x90 board/ti/common/built-in.o
  .debug_ranges  0x0000000000000f10      0x350 common/spl/built-in.o
  .debug_ranges  0x0000000000001260       0x38 common/init/built-in.o

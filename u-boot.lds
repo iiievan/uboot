@@ -10,7 +10,7 @@ SECTIONS
   *(.__image_copy_start)
   *(.vectors)
   arch/arm/cpu/armv7/start.o (.text*)
-  board/ti/am335x/built-in.o (.text*)
+  board/ti/nova/built-in.o (.text*)
   *(.text*)
  }
  . = ALIGN(4);

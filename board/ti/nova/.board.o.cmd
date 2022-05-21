@@ -1,8 +1,8 @@
-cmd_board/ti/am335x/board.o := arm-cortex_a8-linux-gnueabihf-gcc -Wp,-MD,board/ti/am335x/.board.o.d -nostdinc -isystem /home/mbokastnev/x-tools/arm-cortex_a8-linux-gnueabihf/lib/gcc/arm-cortex_a8-linux-gnueabihf/8.3.0/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -I./arch/arm/mach-omap2/include    -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(board)"  -D"KBUILD_MODNAME=KBUILD_STR(board)" -c -o board/ti/am335x/board.o board/ti/am335x/board.c
+cmd_board/ti/nova/board.o := arm-cortex_a8-linux-gnueabihf-gcc -Wp,-MD,board/ti/nova/.board.o.d -nostdinc -isystem /home/mbokastnev/x-tools/arm-cortex_a8-linux-gnueabihf/lib/gcc/arm-cortex_a8-linux-gnueabihf/8.3.0/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -I./arch/arm/mach-omap2/include    -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(board)"  -D"KBUILD_MODNAME=KBUILD_STR(board)" -c -o board/ti/nova/board.o board/ti/nova/board.c
 
-source_board/ti/am335x/board.o := board/ti/am335x/board.c
+source_board/ti/nova/board.o := board/ti/nova/board.c
 
-deps_board/ti/am335x/board.o := \
+deps_board/ti/nova/board.o := \
     $(wildcard include/config/ti/i2c/board/detect.h) \
     $(wildcard include/config/sys/omap24/i2c/speed.h) \
     $(wildcard include/config/sys/omap24/i2c/slave.h) \
@@ -141,8 +141,8 @@ deps_board/ti/am335x/board.o := \
     $(wildcard include/config/dm/spi.h) \
     $(wildcard include/config/dm/warn.h) \
     $(wildcard include/config/dm/stdio.h) \
-  include/configs/am335x_evm.h \
-    $(wildcard include/config/am335x/evm/h.h) \
+  include/configs/nova.h \
+    $(wildcard include/config/nova/h.h) \
     $(wildcard include/config/timestamp.h) \
     $(wildcard include/config/lzo.h) \
     $(wildcard include/config/sys/bootm/len.h) \
@@ -150,6 +150,7 @@ deps_board/ti/am335x/board.o := \
     $(wildcard include/config/sys/ldscript.h) \
     $(wildcard include/config/cmd/gpt.h) \
     $(wildcard include/config/efi/partition.h) \
+    $(wildcard include/config/sys/prompt.h) \
     $(wildcard include/config/bootcommand.h) \
     $(wildcard include/config/extra/env/settings.h) \
     $(wildcard include/config/sys/ns16550/com1.h) \
@@ -302,7 +303,6 @@ deps_board/ti/am335x/board.o := \
     $(wildcard include/config/sys/maxargs.h) \
     $(wildcard include/config/sys/cbsize.h) \
     $(wildcard include/config/sys/pbsize.h) \
-    $(wildcard include/config/sys/prompt.h) \
     $(wildcard include/config/sys/bargsize.h) \
     $(wildcard include/config/nand/davinci.h) \
     $(wildcard include/config/mtd/device.h) \
@@ -1835,10 +1835,10 @@ deps_board/ti/am335x/board.o := \
   include/search.h \
   include/watchdog.h \
     $(wildcard include/config/watchdog.h) \
-  board/ti/am335x/../common/board_detect.h \
+  board/ti/nova/../common/board_detect.h \
     $(wildcard include/config/len.h) \
-  board/ti/am335x/board.h \
+  board/ti/nova/board.h \
 
-board/ti/am335x/board.o: $(deps_board/ti/am335x/board.o)
+board/ti/nova/board.o: $(deps_board/ti/nova/board.o)
 
-$(deps_board/ti/am335x/board.o):
+$(deps_board/ti/nova/board.o):
